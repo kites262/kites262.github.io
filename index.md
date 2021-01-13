@@ -1,7 +1,2 @@
-- Hello!
+# kites262.ml
 
-# flew_kites
-
-## Trump_yahoo
-
-## lttube
