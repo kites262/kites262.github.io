@@ -21,4 +21,6 @@ There lists lots of Java projects which were written by flew_kites, including us
 
 The are all open-source-project, and GitHub repositories are public.
 
-![PNG1](https://s3.ax1x.com/2021/01/15/swD9eI.jpg)
+## Pan [@](http://kites262.ys168.com/)
+
+![PNG1](http://ys-o.ys168.com/608782021/118800228/jolyf4s45362H7L4JO5Je4/NoGameNoLife-Zero.png)
