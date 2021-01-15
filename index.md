@@ -21,6 +21,6 @@ There lists lots of Java projects which were written by flew_kites, including us
 
 The are all open-source-project, and GitHub repositories are public.
 
-## Pan [@](http://kites262.ys168.com/)\
+## Pan [@](http://kites262.ys168.com/)
 
 Pan of flew_kites
