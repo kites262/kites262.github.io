@@ -1,9 +1,26 @@
+###### M&X
 ### Hi,
 
-this is *flew_kites*.
+##### this is *flew_kites*.
 
-![PNG1](.\JavaProject\assets\images\NoGameNoLife-Zero.png)
+```java
+Email = "kites262@foxmail.com"
+```
 
-![PNG2](JavaProject\assets\images\NoGameNoLife-Zero.png)
+## TAS Server [@](https://kites262.ml/TASServer/main.html) *Minecraft Server*
 
-![PNG3](https://github.com/kites262/kites262.github.io/blob/main/JavaProject/assets/images/NoGameNoLife-Zero.png)
+A Minecraft for TAS members and other friendly guys.
+
+**White list enabled**.
+
+For more information, email me.
+
+## Java Projects [@](https://kites262.ml/JavaProject)
+
+There lists lots of Java projects which were written by flew_kites, including useful tools.
+
+The are all open-source-project, and GitHub repositories are public.
+
+
+
+![PNG1](https://s3.ax1x.com/2021/01/15/swD9eI.jpg):
