@@ -7,7 +7,7 @@
 Email = "kites262@foxmail.com"
 ```
 
-## TAS Server [@](https://kites262.ml/TASServer/main.html) *Minecraft Server*
+## TAS Server [@](https://kites262.ml/TASServer) *Minecraft Server*
 
 A Minecraft for TAS members and other friendly guys.
 
