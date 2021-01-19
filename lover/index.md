@@ -1,5 +1,8 @@
 # Lover Space ♥木
 
+## Log
+- [LOGALL](https://kites262.ml/lover/log)
+
 ## Events
 
 - [1-Jan-2021-给小木的一封信.md](https://kites262.ml/lover/event/ALetterToMu_1Jan2021) *1,Jan,2021*
