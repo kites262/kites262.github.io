@@ -1,11 +1,11 @@
-###### M&X
+###### xixuan
 
-### Hi,
+### Hello,
 
 ##### this is *flew_kites*.
 
-## TAS Server [@](https://kites262.ml/TASServer) *Minecraft Server*
+## Minecraft Server [@](https://kites262.github.io/mc) 
 
-## Java Projects [@](https://kites262.ml/JavaProject)
+## GitHub [@](https://github.com/kites262)
 
-## Pan [@](http://kites262.ys168.com/)
+## Pan [@](http://kites262.ysepan.com/)
