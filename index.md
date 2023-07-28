@@ -6,4 +6,4 @@
 ---
 ## [@](http://pan.kites262.top/)Pan
 ===
-### email me at kites262@qq.com
+### email me at *kites262@qq.com*
