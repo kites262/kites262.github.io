@@ -1,9 +1,7 @@
-flew_kites
+###### flew_kites
 
-
-## Minecraft Server [@](https://kites262.github.io/mc) 
+## [@](https://kites262.github.io/mc)Minecraft Server
 ---
-## me on GitHub [@](https://github.com/kites262)
+## [@](https://github.com/kites262)me on GitHub
 ---
-## Pan [@](http://kites262.ysepan.com/)
----
+## [@](http://kites262.ysepan.com/)Pan
