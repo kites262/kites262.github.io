@@ -1,12 +1,16 @@
 # 西电
 
+[本科生入学须知](https://kites262.top/xidian/start/)
+
+[西电迎新网](https://xdyx.xidian.edu.cn/)
+
+---
+
 报到时间：9月2日 8:00~24:00
 
 学号：录取通知书
 
 新生档案：自行携带
-
-[本科生入学须知](https://kites262.top/xidian/start/)
 
 兵役登记：兵役官网打印全国兵役登记网站兵役登记证
 
@@ -22,17 +26,13 @@
 
 *8月7日后开放*
 
-新生接待系统：<http://xdyx.xidian.edu.cn>
+迎新网新生接待系统
 
 激活账号，设置密码，完成报到手续
 
-教材费用：CNY 900
+教材费用：CNY 900 多退少补
 
-**迎新通知发布平台**
-
-​地址：<https://learning.xidian.edu.cn/>
-
-​APP：学在西电
+迎新通知发布URL or APP：学在西电
 
 ---
 
@@ -79,4 +79,6 @@
 ​> *英语听力测试：自备86.6MHz频段头戴式一体调频耳机*
 
 ---
+### 其他链接
 
+[学在西电](https://learning.xidian.edu.cn/)
