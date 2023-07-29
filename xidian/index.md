@@ -78,3 +78,5 @@
 ### 其他链接
 
 [学在西电](https://learning.xidian.edu.cn/)
+
+[虽迟但到！西安电子科技大学2023级新生指南来了 - 知乎](https://zhuanlan.zhihu.com/p/525955595)
