@@ -83,3 +83,7 @@
 
   ## 谢谢大家
 
+  ---
+
+  [Download PDF]("https://kites262.top/jz/index.pdf)
+
