@@ -85,5 +85,5 @@
 
   ---
 
-  [Download PDF]("https://kites262.top/jz/index.pdf)
+  [Download PDF](./index.pdf)
 
