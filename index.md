@@ -9,7 +9,7 @@ ___
 
 ___
 
-## [@](http://kites262.top/mc/console) Minecraft Server Console
+## [@](https://kites262.top/mc/admin/) Minecraft Server Console
 
 ## [@](http://120.27.201.6/#/overview) 阿里云ECS
 
