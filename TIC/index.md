@@ -54,7 +54,7 @@ public class Prime {
     public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
 
-        System.out.println("Enter a number and I will output whether it is a prime number:");
+        System.out.println("Enter a int number:");
         NumIsPrime np = new NumIsPrime(scan.nextInt());
 
         System.out.println(np.isPrime());
