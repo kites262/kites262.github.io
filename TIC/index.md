@@ -35,7 +35,7 @@
 
 
 <details>
-        <summary><p style="color: red">以下是我对计算机主要部件及其功能的认识</p></summary>
+        <summary><p style="color: blue">以下是我对计算机主要部件及其功能的认识</p></summary>
         <pre><code>
 中央处理器（CPU）：CPU是计算机的大脑，负责执行指令和处理数据。它包括算术逻辑单元（ALU）和控制单元（CU），ALU执行算术和逻辑运算，CU协调指令的执行和控制数据的流动。
 内存（主存储器）：内存用于存储正在执行的程序和数据。它分为随机访问存储器（RAM）和只读存储器（ROM）。RAM用于临时存储数据和程序，而ROM存储固定的指令和数据，不易修改。
@@ -61,7 +61,7 @@
 再经历顶点处理、光栅化处理、像素处理后，最后输出到屏幕
 
 <details>
-    <summary><p style="color: red">点击展开规范的回答</p></summary>
+    <summary><p style="color: blue">点击展开规范的回答</p></summary>
     <pre><code>
 应用程序生成图形数据：图形渲染的第一步是应用程序生成图形数据。这可以是2D图形，如线条、形状和文字，也可以是3D图形，如三维模型和场景。
 
