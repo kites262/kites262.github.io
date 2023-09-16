@@ -19,6 +19,45 @@
 
 为了体现出OOP的特点，我选择了另建类和字段来判断素数，代码如下
 
+```Java
+import java.util.Scanner;
+
+public class Prime {
+    //为了将被判断的数视作实例化的对象，创建了NumIsPrime类
+    static class NumIsPrime{
+        int num;
+        public NumIsPrime(int num){
+            this.num = num;
+        }
+
+        public boolean isPrime(){
+            //采用平方根法
+            int rt = (int)Math.sqrt(num);
+            boolean prime = true;
+            if(num >= 1){
+                for(int i = 2; i <= rt; i++){
+                    if(num%i == 0){
+                        prime = false;
+                        break;
+                    }
+                }
+            }else{
+                prime = false;
+            }
+            return prime;
+        }
+    }
+    public static void main(String[] args){
+        Scanner scan = new Scanner(System.in);
+
+        System.out.println("Enter a number and I will output whether it is a prime number:");
+        NumIsPrime np = new NumIsPrime(scan.nextInt());
+
+        System.out.println(np.isPrime());
+    }
+}
+```
+
 ## 3.尝试用（html，css）写一下自己的静态网站
 
 我的静态网站服务基于Github Pages，拥有自定义域名，作为我的随笔和备忘录页面而开发，因为精力在网页内容上，所以页面大部分由Hexo实现
