@@ -64,7 +64,7 @@ public class Prime {
 
 但也有自己写过的html网站，其作为曾经我的mc服务器宣传页
 
-[https://kites262.top/mc/]
+<https://kites262.top/mc/>
 
 ## 4.计算机由哪些部件组成？他们是如何工作的？
 
