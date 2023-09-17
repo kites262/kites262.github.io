@@ -1,315 +1,199 @@
+index.html
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8" />
-		<title>Li Shu's site</title>
-		<link href="img/title.ico" rel="shortcut icon"/>
-		<style type="text/css">
-			html{
-				position: relative;
-			}
-			.top{
-				background-color: #FFFFFF;
-				height: 60px;
-				width: 1900px;
-				position: absolute;
-				top: 0;
-				left: 0;
-			}
-			.top h1{
-				padding-left: 150px;
-				font-family: "华文新魏";
-			}
-			.top-left{
-				width: 250px;
-				height: 50px;
-			}
-			.top-left span{
-				position: absolute;
-				top: 15px;
-				left: 250px;
-				font-family: "华文新魏";
-				font-size: 28px;
-				color: pink;
-				float: left;
-				display: none;
-			}
-			.top-left:hover span{
-				display: block;
-			}
-			.top1{
-				position: absolute;
-				top: 0px;
-				left: 600px;
-				padding: 20px;
-				font-family: "华文新魏";
-				font-size: 30px;
-			}
-			.top2{
-				position: absolute;
-				top: 0px;
-				left: 800px;
-				padding: 20px;
-				font-family: "华文新魏";
-				font-size: 30px;
-			}
-			.top3{
-				position: absolute;
-				top: 0px;
-				left: 1050px;
-				padding: 20px;
-				font-family: "华文新魏";
-				font-size: 30px;
-			}
-			.top4{
-				position: absolute;
-				top: 0px;
-				left: 1300px;
-				padding: 20px;
-				font-family: "华文新魏";
-				font-size: 30px;
-			}
-			a{
-				text-decoration: none;
-				color: black;
-			}
-			a:hover{
-				text-decoration: none;
-				color:  orange;
-			}
-			a:active{
-				text-decoration: line-through;
-				color: cadetblue;
-			}
-			.top-right{
-					position: absolute;
-					top: 0px;
-					right: 30px;
-					padding: 20px;
-					font-family: "华文新魏";
-					font-size: 20px;
-			}
-			.top img{
-				width: 40px;
-				height: 40px;
-				border-radius: 25px;
-				position: absolute;
-				top: 5px;
-				right: 0px;
-			}
-			.top-right1{
-					position: absolute;
-					top: -4px;
-					right: -150px;
-					padding: 20px;
-			}
-			.top-right1 input{
-				font-family: "华文新魏";
-				font-size: 20px;
-				border-radius: 8px;
-			}
-			.main{
-				position: absolute;
-				top: 60px;
-				left: 0;
-				background-image: url(img/人生背景.jpg);
-				background-repeat: no-repeat;
-				background-size: cover;
-				background-attachment: fixed;
-				width: 2133px;
-				height: 1141px;
-			}
-			.main-left h1{
-				position: absolute;
-				left: 50px;
-				top: 180px;
-				color: #517693;
-				font-size: 40px;
-				font-weight: bold;
-				font-family: "华文行楷";
-			}
-			.main-left h3{
-				position: absolute;
-				left: 50px;
-				top: 280px;
-				color: #517693;
-				font-size: 28px;
-				font-weight: bold;
-				font-family: "华文行楷";
-			}
-			.center-left{
-				position: absolute;
-				top: 30px;
-				left: 550px;
-				width: 250px;
-				height: 850px;
-				border: 3px solid white;
-				border-radius: 20px;
-				background-color:white;
-				opacity: 0.8;
-			}
-			.center-left img{
-				width: 100px;
-				height: 100px;
-				border-radius: 100px;
-				position: absolute;
-				top: 5px;
-				left: 75px;
-			}
-			.center-left #name{
-				position: absolute;
-				top: 110px;
-				left: 75px;
-				text-align: center;
-				font-family: "华文新魏";
-				font-size: 17px;
-			}
-			.span ul{
-				position:absolute;
-				top: 200px;
-				left: 510px;
-				width: 250px;
-				height: 680px;
-			}
-			.span li{
-				line-height: 111px;
-				list-style-type: none;
-			}
-			.pane{
-				width: 256px;
-				text-align: center;
-				font-family: "华文新魏";
-				font-size: 20px;
-			}
-			.pane:hover{
-				background-color: white;
-			}
-			.pane1{
-				width: 256px;
-				height: 114px;
-				border-bottom-left-radius: 15px;
-				border-bottom-right-radius: 15px;
-				text-align: center;
-				font-family: "华文新魏";
-				font-size: 20px;
-			}
-			.pane1:hover{
-				background-color: white;
-			}
-			.center{
-				position: absolute;
-				top: 30px;
-				left: 820px;
-				width: 850px;
-				height: 850px;
-				border: 3px solid white;
-				border-radius: 20px;
-				background: rgba(250,250,250,0.8);
-			}
-			.center iframe{
-				border-radius: 20px;
-			}
-			#showtime1{
-					position: absolute;
-					left: 30px;
-					bottom: 20px;
-					color: #517693;
-					font-size: 28px;
-					font-weight: bold;
-					font-family: "华文新魏";
-					}
-			#showtime2{
-					position: absolute;
-					left:40px;
-					bottom: -15px;
-					color: #517693;
-					font-size: 25px;
-					font-weight: bold;
-					font-family: "华文新魏";
-					}
-			.time{
-				position: absolute;
-				right: 30px;
-				bottom: 5px;
-				color: #517693;
-				font-size: 28px;
-				font-weight: bold;
-				font-family: "华文新魏";
-				}
-			.bottom
-			{
-				position: absolute;
-				top: 1110px;
-				width: 2110px;
-				height: 85px;
-			}
-		</style>
-	</head>
-	<body>
-		<div class="top">
-			<div class="top-left">
-				<h1>止于此</h1>
-				<span>风止于秋水，我止于你💗</span>
-			</div>
-			<a class="top1" href="home page.html">首页</a>
-			<a class="top2" href="work.html">苦海无涯</a>
-			<a class="top3" href="life.html">人生旅途</a>
-			<a class="top4" href="message board.html">人生良言</a>
-			<span class="top-right">黎曙</span>
-			<img src="img/头像.jpg" title="头像" alt="头像" />
-			<span class="top-right1"><input type="submit" value="登录"></span>
-		</div>
-		<div class="main">
-			<div class="main-left">
-				<h1>欢迎来到黎曙的世界！<br/>Welcome to Li Shu's world!</h1>
-				<h3>今天也要加油昂！<br/>Today, we still have to refuel!</h3>
-			</div>
-			<div class="main-center">
-				<div class="center-left">
-					<a href="my.html" target="frame"><img src="img/头像.jpg" alt="头像" title="头像" /></a>
-					<span id="name">黎曙<br/>非常热爱生活</span>
-				</div>
-			</div>
-				<div class="span">
-						<ul>
-							<li class="pane"><a href="main1.html" target="frame">主页</a></li>
-							<li class="pane"><a href="work.html" target="frame">笔记</a></li>
-							<li class="pane"><a href="conclude.html" target="frame">归档</a></li>
-							<li class="pane"><a href="email.html" target="frame">邮箱</a></li>
-							<li class="pane"><a href="about.html" target="frame">关于</a></li>
-							<li class="pane1">更多</li>
-						</ul>
-				</div>
-				<div class="center">
-					<iframe src="main1.html" width="850px" height="850px" frameborder="0" scrolling="yes" name="frame"></iframe>
-				</div>
-			</div>
-		<div class="bottom">
-			<p id="showtime1" title="我们的征途是星辰大海">哈雷彗星的约定：</p>
-			<p id="showtime2" >14193天3:22:55</p>
-			<script>
-				var showtime2 = function () {
-                    var nowtime = new Date();
-                    endtime = new Date("2061/1/1");
-                    var lefttime = endtime.getTime() - nowtime.getTime();
-                    leftd = Math.floor(lefttime/(1000*60*60*24));  
-                    lefth = Math.floor(lefttime/(1000*60*60)%24);  
-                    leftm = Math.floor(lefttime/(1000*60)%60);  
-                    lefts = Math.floor(lefttime/1000%60); 
-                    return leftd + "&#22825;" + lefth + ":" + leftm + ":" + lefts;
-                }
-				var div = document.getElementById("showtime2");
-				setInterval (function () {
-                    div.innerHTML = showtime2();
-                }, 1000);
-			</script>
-			<div class="time">
-				<script> 
-					document.write("<span id=time></span>") 
-					setInterval("time.innerText=new Date().toLocaleString()",1000)
-				</script> 
-			</div>
-		</div>
-	</body>
-</html>
+<head>
+    <meta charset="utf-8">
+    <title>沙雕小星星</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="btn">
+        <p>&nbsp;👇WATCH MY CV👇</p>
+    </div>
+    <div class="top">
+        <a href="https://blog.csdn.net/weixin_51263734" target="_blank">我的兴趣</a>
+        <a href="https://blog.csdn.net/weixin_51263734" target="_blank">我的过去</a>
+        <a href="https://blog.csdn.net/weixin_51263734" target="_blank">我的梦想</a>
+        <a href="https://blog.csdn.net/weixin_51263734" target="_blank" style="float:right">小风的博客</a>
+    </div>
+    <div class="content">
 
+        <h1 class="avr">Give AR/VR Eyes and Brain</h1>
+    </div>
+
+
+    <div class="yinyue">
+        <img class="music" src="./33.png" alt="">
+        <audio autoplay="autoplay" id="audio" loop="loop">
+            <source src="./music1.mp3" type="audio/MP3">
+
+        </audio>
+
+    </div>
+    <div class="row">
+        <div class="centercolumn">
+            <div class="card">
+
+                <h2 id="biaoti">浮生六记卷一</h2><br />
+                <hr />
+                <h4 id="qita">2021 年 1 月 29日</h4>
+
+                <p style="text-indent:2em">我生于乾降二十八年(1763年)的冬天ー月十ニ日。那时天下承平，国家安泰。我生于读书人家家在苏州城沧浪亭畔，上天待我何等厚爱。</p>
+                <p style="text-indent:2em">回想这一生，真如东坡先生所说“事如春梦了无痕”，如果不将之记下来，未免辜负了天赋幸运。</p>
+                <p style="text-indent:2em">
+                    而我总觉得，《诗三百》以《关》为开篇，这是将世间夫妇之爱放在卷首。那么我何妨也将之放在最开始，
+                    余下的再慢慢道来。只是惭愧自己年少失学，文字粗浅，所写所记，皆是真情实事而已。如果一定要挑剔其中的文法错漏，那就是对着待磨的铜镜，却希冀它明察秋毫。
+                </p>
+                <p style="text-indent:2em">
+                    小时候我与金沙于家的女儿有过婚约。那女孩子八岁夭折。后来娶妻陈氏，名芸，字淑珍，她的父亲陈心馀是我舅舅，舅母金氏，还有一个表弟名为克昌。
+                    芸天性聪慧，牙牙学语时，其父教她《琵琶行》，一学能便能背诵。她四岁时父亲去世，弱母幼弟，家徒四壁。所幸芸女红针
+                    线十分出色，到她年纪稍长，一家三口的生计便着落在她针指间的辛劳，不仅家人衣食周全，还能供克昌读书。
+                </p>
+                <p style="text-indent:2em">
+                    有一天，她在克昌的书箱里翻到《琵琶行》，回想儿时背诵的内容，逐字辨识，学会了识字。刺绣的闲暇她自学不辍，渐渐通晓诗词，曾写过“秋侵人影瘦，霜染菊花肥”
+                    这样清丽的诗句。十三岁时，母亲带我回娘家小住。芸比我大十个月，我一直把她叫作“淑姐姐”。我们两小无猜，她悄悄给我看自己的诗句
+                    我感叹她才思清雅灵秀，却也暗暗担心，如此的聪慧敏感，恐怕不是福泽深厚之相。
+                </p>
+                <p style="text-indent:2em">
+                    尽管如此，我已倾心于芸，不能释怀。私下对母亲说：“我若娶妻，一定要娶淑姐姐。”母亲也喜欢她的温柔和顺，便摘下金指环相赠，作为信物与陈家订下婚约。
+                </p>
+            </div>
+            <br /><br />
+            <div class="card">
+                <h2 id="biaoti">闺房之乐</h2><br />
+                <hr />
+                <h4 id="qita">2020 年 1 月 30日</h4>
+                <p style="text-indent:2em">
+                    那一天是乾隆四十年(1775年)七月十六日，我与芸订婚。
+
+                </p>
+                <p style="text-indent:2em">
+                    这一年冬天，芸的堂姐出嫁，我又跟着母亲前去观礼。族中
+                    组妹都来送嫁，满室新裁衣裳的鲜亮颜色，唯有芸衣着淡雅，只
+                    双鞋是新的。我偷看她的新鞋，刺绣精巧美丽，悄悄问她，她
+                    说是自己做的，这才知道芸的聪慧敏捷，不止在诗词一道
+                    这时的芸清秀瘦弱，窄窄的肩，脖颈修长，弯弯的眉毛，眼
+                    睛灵秀俏丽，顾盼间神韵动人。唯是上唇略短，微露出两颗牙
+                    齿，虽然这似乎不是有福之相，但别有一种妩媚娇柔之感，让人怦然心动。
+                </p>
+                <p style="text-indent:2em">
+                    央她再给我看她的诗稿，发现多是未能成篇的残句，或是一
+                    联，或是三四行。问她为何，她笑着说：“自己随手写的，也没人
+                    指点，留待懂诗的知己教我，一起推敲完成。”
+                    我开玩笑地把她的诗稿题作“锦囊佳句”，却不知这一个玩
+                    笑，已经预示了芸日后的命运。
+                </p>
+                <p style="text-indent:2em">
+                    “锦囊佳句”
+                </p>
+                <p style="text-indent:2em">
+                    （此处用唐代诗人李贺故事。李贺少年时出游，常有一仆僮背
+                    着锦囊跟随。每有诗兴，他就把所得诗句记下来，投入锦囊中
+                    称为“锦囊佳句”。据说其祖母见到这锦囊，感叹道：“这孩子写
+                    诗是要把心呕出来啊。”而李贺果然早夭。所以沈复题“锦囊佳
+                    句”，虽然贴切，却非佳兆。）
+                </p>
+                <p style="text-indent:2em">
+                    这一夜，和兄弟们到城外送亲，回来时已过半夜，我觉得
+                    饿了，仆妇呈上蜜枣，正嫌太甜，芸出来，悄悄拽我的袖子。我心领神会，跟她回房，
+                    原来她在房中藏着粥和几样小菜，还是热的。
+                </p>
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+    <br /><br />
+    <button class="bt" onclick="window.open('https://blog.csdn.net/weixin_51263734')">MY CSDN BLOG</button>
+
+    <script>
+    let mucics = document.getElementById('audio')
+    document.body.addEventListener('mousemove', function() {
+        setTimeout(() => {
+            mucics.play();
+        }, 2000);
+    }, false);
+    </script>
+
+    <div class="footer">
+        <br />
+        <p>希望能成为有梦想 有温度的教技人</p><br />
+        <p>你好 我是风小风</p><br />
+        <a href="https://blog.csdn.net/weixin_51263734" target="_blank"><img class="someimg" src="./hou.png" alt="" width="30"></a>
+        <abbr title="QQ账号：2633386281"><img class="someimg" src="./qq.png" alt="" width="30"></abbr>
+        <abbr title="邮箱：fzx2003zhixue@163.com"><img class="someimg" src="./mail.png" alt="" width="30"></abbr>
+    </div>
+    <script>
+        //鼠标点击出现爱心特效  这部分特效是从一个网页搬过来的  觉得挺好看的
+        (function (window, document, undefined) {
+            var hearts = [];
+            window.requestAnimationFrame = (function () {
+                return window.requestAnimationFrame ||
+				window.webkitRequestAnimationFrame ||
+				window.mozRequestAnimationFrame ||
+				window.oRequestAnimationFrame ||
+				window.msRequestAnimationFrame ||
+				function (callback) {
+				    setTimeout(callback, 1000 / 60);
+				}
+            })();
+            init();
+            function init() {
+                css(".heart{width: 10px;height: 10px;position: fixed;background: #f00;transform: rotate(45deg);-webkit-transform: rotate(45deg);-moz-transform: rotate(45deg);}.heart:after,.heart:before{content: '';width: inherit;height: inherit;background: inherit;border-radius: 50%;-webkit-border-radius: 50%;-moz-border-radius: 50%;position: absolute;}.heart:after{top: -5px;}.heart:before{left: -5px;}");
+                attachEvent();
+                gameloop();
+            }
+            function gameloop() {
+                for (var i = 0; i < hearts.length; i++) {
+                    if (hearts[i].alpha <= 0) {
+                        document.body.removeChild(hearts[i].el);
+                        hearts.splice(i, 1);
+                        continue;
+                    }
+                    hearts[i].y--;
+                    hearts[i].scale += 0.004;
+                    hearts[i].alpha -= 0.013;
+                    hearts[i].el.style.cssText = "left:" + hearts[i].x + "px;top:" + hearts[i].y + "px;opacity:" + hearts[i].alpha + ";transform:scale(" + hearts[i].scale + "," + hearts[i].scale + ") rotate(45deg);background:" + hearts[i].color;
+                }
+                requestAnimationFrame(gameloop);
+            }
+            function attachEvent() {
+                var old = typeof window.onclick === "function" && window.onclick;
+                window.onclick = function (event) {
+                    old && old();
+                    createHeart(event);
+                }
+            }
+            function createHeart(event) {
+                var d = document.createElement("div");
+                d.className = "heart";
+                hearts.push({
+                    el: d,
+                    x: event.clientX - 5,
+                    y: event.clientY - 5,
+                    scale: 1,
+                    alpha: 1,
+                    color: randomColor()
+                });
+                document.body.appendChild(d);
+            }
+            function css(css) {
+                var style = document.createElement("style");
+                style.type = "text/css";
+                try {
+                    style.appendChild(document.createTextNode(css));
+                } catch (ex) {
+                    style.styleSheet.cssText = css;
+                }
+                document.getElementsByTagName('head')[0].appendChild(style);
+            }
+            function randomColor() {
+                return "rgb(" + (~~(Math.random() * 255)) + "," + (~~(Math.random() * 255)) + "," + (~~(Math.random() * 255)) + ")";
+            }
+        })(window, document);
+    </script>
+</body>
+</html>
