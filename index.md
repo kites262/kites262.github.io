@@ -7,13 +7,13 @@ ___
 
 ## [##](https://github.com/kites262/) GitHub flew_kites
 
-## [##](http://kites262.top/pan/) Pan
+## [##](http://kites262.top/pan/) 网盘 (…暂时）
 
 ___
 
 ## [##](https://kites262.top/mc/admin/) Minecraft Server Console
 
-## [##](http://120.27.201.6/#/overview) MCSManager - 阿里云ECS
+## [维护]e.kites262.top MCSManager - 阿里云ECS
 
 ___
 
