@@ -22,8 +22,8 @@ int main(){
     }
 
     // get
-    for(int i = 0; i < count-1; i++){
-        if(trend(&user[i]) != trend(&user[i+1])) result++;
+    for(int i = 1; i < count-1; i++){
+        if(trend(&user[i-1]) != trend(&user[i])) result++;
     }
 
     printf("%d", result);

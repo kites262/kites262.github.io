@@ -2,11 +2,15 @@
 setlocal enabledelayedexpansion
 
 set OutputFile=index.md
+set BasePath=%cd%
 del %OutputFile% 2>nul
 
-for /f %%F in ('dir /b /on') do (
-    echo [%%F](%%F^) >> %OutputFile%
-    echo.>> %OutputFile%
+for /r %%F in (*.*) do (
+    set "FullPath=%%~dpnxF"
+    set "RelativePath=%%F"
+    set "RelativePath=!RelativePath:%BasePath%\=!"
+    echo [%%~nxF](!RelativePath!^) >> %OutputFile%
+    echo. >> %OutputFile%
 )
 
 endlocal
