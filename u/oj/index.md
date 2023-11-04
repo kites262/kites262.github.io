@@ -1,6 +1,20 @@
-[AUTHOR.flew_kites](AUTHOR.flew_kites) 
+[.test.c](.test.c) 
+ 
+[112.c](112.c) 
+ 
+[150.c](150.c) 
+ 
+[34.c](34.c) 
+ 
+[464.c](464.c) 
+ 
+[612.c](612.c) 
  
 [makelist.cmd](makelist.cmd) 
+ 
+[settings.json](.vscode\settings.json) 
+ 
+[tasks.json](.vscode\tasks.json) 
  
 [10.c](Archived\10.c) 
  
@@ -96,6 +110,8 @@
  
 [79.c](Archived\79.c) 
  
+[87-encode.c](Archived\87-encode.c) 
+ 
 [87.c](Archived\87.c) 
  
 [89.c](Archived\89.c) 
@@ -109,4 +125,6 @@
 [92.c](Archived\92.c) 
  
 [98.c](Archived\98.c) 
+ 
+[AUTHOR.flew_kites](Archived\AUTHOR.flew_kites) 
  

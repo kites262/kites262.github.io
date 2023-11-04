@@ -1,0 +1,9 @@
+{
+    "files.exclude": {
+        "**/*.exe": true,
+        "AUTHOR.flew_kites": true,
+        "index.md": true,
+        "makelist.cmd": true
+    },
+    "editor.fontSize": 19
+}
