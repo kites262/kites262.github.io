@@ -23,3 +23,29 @@ int main(){
     scanf("%c%c%c%c%c", &a[0], &a[1], &a[2], &a[3], &a[4]);
     printf("%c %c %c %c %c", a[0], a[1], a[2], a[3], a[4]);
 }
+
+/**
+ * 当然有老实一点的做法
+#include <stdio.h>
+
+int main(){
+    void swaps(char* a, char* b);
+    char a[5];
+    scanf("%c%c%c%c%c", &a[0], &a[1], &a[2], &a[3], &a[4]);
+    for(int i = 0; i < 5; i++){
+        for(int j = 0; j < 4-i; j++){
+            if(a[j] > a[j+1]){
+                swaps(&a[j], &a[j+1]);
+            }
+        }
+    }
+    printf("%c %c %c %c %c", a[0], a[1], a[2], a[3], a[4]);
+}
+
+void swaps(char* a, char* b){
+    *a = (*a)^(*b);
+    *b = (*a)^(*b);
+    *a = (*a)^(*b);
+}
+
+*/
