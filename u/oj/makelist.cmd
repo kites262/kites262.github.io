@@ -1,6 +1,8 @@
 @echo off
 setlocal enabledelayedexpansion
 
+del *.exe
+
 set OutputFile=index.md
 set BasePath=%cd%
 del %OutputFile% 2>nul
