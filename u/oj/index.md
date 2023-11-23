@@ -1,8 +1,12 @@
 [0CodeSnippets .c](0CodeSnippets .c) 
  
-[398.c](398.c) 
+[545.c](545.c) 
+ 
+[85.c](85.c) 
  
 [makelist.cmd](makelist.cmd) 
+ 
+[test.c](test.c) 
  
 [settings.json](.vscode\settings.json) 
  
@@ -155,6 +159,8 @@
 [6.c](Archived\6.c) 
  
 [612.c](Archived\612.c) 
+ 
+[616.c](Archived\616.c) 
  
 [64.c](Archived\64.c) 
  

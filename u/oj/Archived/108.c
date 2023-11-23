@@ -15,7 +15,7 @@ int parseNumber(char* str){
             a[0]++;
         }
     }
-
+//
     int num = 0;
     for(int i = 1; i <= a[0]; i++){
         int zeros = a[0] - i;
@@ -55,7 +55,7 @@ int getMaxFactor(int num){
 }
 
 int main(){
-    char user[100];
-    scanf("%s", user);
-    printf("%d", getMaxFactor(parseNumber(user)));
+    char str[100];
+    scanf("%s", str);
+    printf("%d", getMaxFactor(parseNumber(str)));
 }
