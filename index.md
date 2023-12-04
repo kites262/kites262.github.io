@@ -11,9 +11,9 @@ ___
 
 ___
 
-## [##](https://kites262.top/mc/admin/) Minecraft Server Console
+## [SparkSports](https://kites262.top/u/spark) 基于Vue开发的运动数据可视化与激励系统
 
-## [维护]e.kites262.top MCSManager - 阿里云ECS
+## [维护]s.kites262.top 阿里云ECS
 
 ___
 

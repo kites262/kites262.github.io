@@ -1,14 +1,28 @@
 [0CodeSnippets .c](0CodeSnippets .c) 
  
-[385.c](385.c) 
+[224.c](224.c) 
  
-[545.c](545.c) 
+[39.c](39.c) 
  
-[85.c](85.c) 
+[69.c](69.c) 
+ 
+[71.c](71.c) 
+ 
+[73.c](73.c) 
+ 
+[74.c](74.c) 
+ 
+[77.c](77.c) 
+ 
+[80.c](80.c) 
+ 
+[81.c](81.c) 
+ 
+[82.c](82.c) 
  
 [makelist.cmd](makelist.cmd) 
  
-[test.c](test.c) 
+[temp.c](temp.c) 
  
 [settings.json](.vscode\settings.json) 
  
@@ -104,6 +118,8 @@
  
 [38.c](Archived\38.c) 
  
+[385.c](Archived\385.c) 
+ 
 [388.c](Archived\388.c) 
  
 [390.c](Archived\390.c) 
@@ -150,6 +166,8 @@
  
 [54.c](Archived\54.c) 
  
+[545.c](Archived\545.c) 
+ 
 [55.c](Archived\55.c) 
  
 [56.c](Archived\56.c) 
@@ -177,6 +195,8 @@
 [76.c](Archived\76.c) 
  
 [79.c](Archived\79.c) 
+ 
+[85.c](Archived\85.c) 
  
 [87.c](Archived\87.c) 
  

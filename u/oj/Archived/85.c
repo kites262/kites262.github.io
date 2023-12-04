@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-void toLower(char*);
+void toLowerStr(char*);
 double getSimilarityRate(char*, char*);
 
 int main(){
@@ -9,8 +9,8 @@ int main(){
     char s2[100];
     scanf("%s %s", s1, s2);
 
-    toLower(s1);
-    toLower(s2);
+    toLowerStr(s1);
+    toLowerStr(s2);
 
     double rate = getSimilarityRate(s1, s2);
 
@@ -20,7 +20,7 @@ int main(){
 /**
  * 将str中的所有大写字母转换为小写
 */
-void toLower(char* str){
+void toLowerStr(char* str){
     for(int i = 0; str[i] != '\0'; i++){
        if(str[i] >= 'A' && str[i] <= 'Z'){
         //把作为大写字母的str[i]变成小写；
