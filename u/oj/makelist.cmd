@@ -4,8 +4,11 @@ del *.exe
 
 set OutputFile=index.md
 set BasePath=%cd%
+echo # XDOJ_C List > %OutputFile%
 
-echo Last Update at: %DATE% %TIME% > %OutputFile%
+REM echo Last Updated at > %OutputFile%
+REM wmic os get localdatetime /value >> %OutputFile%
+
 echo. >> %OutputFile%
 
 for /r %%F in (*.*) do (
