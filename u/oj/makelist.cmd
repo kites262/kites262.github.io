@@ -1,11 +1,12 @@
-@echo off
 setlocal enabledelayedexpansion
 
 del *.exe
 
 set OutputFile=index.md
 set BasePath=%cd%
-del %OutputFile% 2>nul
+
+echo Last Update at: %DATE% %TIME% > %OutputFile%
+echo. >> %OutputFile%
 
 for /r %%F in (*.*) do (
     set "FullPath=%%~dpnxF"
