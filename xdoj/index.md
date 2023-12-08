@@ -1,12 +1,16 @@
-# XDOJ_C List
-
-# !!!注意：页面已移动到新的URL：<https://kites262.top/xdoj/>
+# XDOJ_C List 
+ 
+# 注意，此页面已移动到新的URL "<https://kites262.top/xdoj/>" 
  
 [224.c](224.c) 
+ 
+[385_.c](385_.c) 
  
 [39.c](39.c) 
  
 [398.c](398.c) 
+ 
+[528_.c](528_.c) 
  
 [69.c](69.c) 
  
