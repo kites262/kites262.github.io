@@ -1,6 +1,10 @@
 # XDOJ_C List 
  
-# 注意，此页面已移动到新的URL "<https://kites262.top/xdoj/>" 
+*Last updated at 2023-12-19 20:51:09* 
+ 
+## Latest Items: 
+ 
+[0_CodeSnippets.c](0_CodeSnippets.c) 
  
 [241.c](241.c) 
  
@@ -16,17 +20,9 @@
  
 [705.c](705.c) 
  
-[index.md](index.md) 
- 
-[makelist.cmd](makelist.cmd) 
- 
 [test.c](test.c) 
  
-[_CodeSnippets.c](_CodeSnippets.c) 
- 
-[settings.json](.vscode\settings.json) 
- 
-[tasks.json](.vscode\tasks.json) 
+## Archived Items: 
  
 [10.c](Archived\10.c) 
  
@@ -129,8 +125,6 @@
 [39.c](Archived\39.c) 
  
 [390.c](Archived\390.c) 
- 
-[390.exe](Archived\390.exe) 
  
 [391.c](Archived\391.c) 
  
@@ -241,6 +235,4 @@
 [92.c](Archived\92.c) 
  
 [98.c](Archived\98.c) 
- 
-[AUTHOR.flew_kites](Archived\AUTHOR.flew_kites) 
  
