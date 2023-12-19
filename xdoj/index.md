@@ -2,37 +2,25 @@
  
 # 注意，此页面已移动到新的URL "<https://kites262.top/xdoj/>" 
  
-[224.c](224.c) 
+[241.c](241.c) 
  
-[385_.c](385_.c) 
+[490.c](490.c) 
  
-[39.c](39.c) 
+[641-.c](641-.c) 
  
-[398.c](398.c) 
+[671.c](671.c) 
  
-[528_.c](528_.c) 
+[672.c](672.c) 
  
-[69.c](69.c) 
+[673.c](673.c) 
  
-[71.c](71.c) 
- 
-[73.c](73.c) 
- 
-[74.c](74.c) 
- 
-[77.c](77.c) 
- 
-[80.c](80.c) 
- 
-[81.c](81.c) 
- 
-[82.c](82.c) 
+[705.c](705.c) 
  
 [index.md](index.md) 
  
 [makelist.cmd](makelist.cmd) 
  
-[temp.c](temp.c) 
+[test.c](test.c) 
  
 [_CodeSnippets.c](_CodeSnippets.c) 
  
@@ -90,6 +78,8 @@
  
 [221.c](Archived\221.c) 
  
+[224.c](Archived\224.c) 
+ 
 [227.c](Archived\227.c) 
  
 [228.c](Archived\228.c) 
@@ -130,15 +120,23 @@
  
 [38.c](Archived\38.c) 
  
+[385-.c](Archived\385-.c) 
+ 
 [385.c](Archived\385.c) 
  
 [388.c](Archived\388.c) 
  
+[39.c](Archived\39.c) 
+ 
 [390.c](Archived\390.c) 
+ 
+[390.exe](Archived\390.exe) 
  
 [391.c](Archived\391.c) 
  
 [392.c](Archived\392.c) 
+ 
+[398.c](Archived\398.c) 
  
 [40.c](Archived\40.c) 
  
@@ -174,9 +172,13 @@
  
 [525.c](Archived\525.c) 
  
+[528-.c](Archived\528-.c) 
+ 
 [53.c](Archived\53.c) 
  
 [54.c](Archived\54.c) 
+ 
+[540.c](Archived\540.c) 
  
 [545.c](Archived\545.c) 
  
@@ -202,11 +204,27 @@
  
 [68.c](Archived\68.c) 
  
+[69.c](Archived\69.c) 
+ 
 [7.c](Archived\7.c) 
+ 
+[71.c](Archived\71.c) 
+ 
+[73.c](Archived\73.c) 
+ 
+[74.c](Archived\74.c) 
  
 [76.c](Archived\76.c) 
  
+[77.c](Archived\77.c) 
+ 
 [79.c](Archived\79.c) 
+ 
+[80.c](Archived\80.c) 
+ 
+[81.c](Archived\81.c) 
+ 
+[82.c](Archived\82.c) 
  
 [85.c](Archived\85.c) 
  
