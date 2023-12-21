@@ -1,5 +1,7 @@
 setlocal enabledelayedexpansion
 
+del *.exe
+
 set OutputFile=index.md
 
 rem TITLE&DATE

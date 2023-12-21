@@ -1,16 +1,10 @@
 # XDOJ_C List 
  
-*Last updated at 2023-12-19 20:51:09* 
+*Last updated at 2023-12-21 21:52:16* 
  
 ## Latest Items: 
  
 [0_CodeSnippets.c](0_CodeSnippets.c) 
- 
-[241.c](241.c) 
- 
-[490.c](490.c) 
- 
-[641-.c](641-.c) 
  
 [671.c](671.c) 
  
@@ -18,9 +12,19 @@
  
 [673.c](673.c) 
  
-[705.c](705.c) 
+[674.c](674.c) 
  
-[test.c](test.c) 
+[675-.c](675-.c) 
+ 
+[676.c](676.c) 
+ 
+[677.c](677.c) 
+ 
+[680.c](680.c) 
+ 
+[681.c](681.c) 
+ 
+[682.c](682.c) 
  
 ## Archived Items: 
  
@@ -116,8 +120,6 @@
  
 [38.c](Archived\38.c) 
  
-[385-.c](Archived\385-.c) 
- 
 [385.c](Archived\385.c) 
  
 [388.c](Archived\388.c) 
@@ -158,6 +160,8 @@
  
 [49.c](Archived\49.c) 
  
+[490.c](Archived\490.c) 
+ 
 [50.c](Archived\50.c) 
  
 [51.c](Archived\51.c) 
@@ -166,7 +170,7 @@
  
 [525.c](Archived\525.c) 
  
-[528-.c](Archived\528-.c) 
+[528.c](Archived\528.c) 
  
 [53.c](Archived\53.c) 
  
@@ -192,6 +196,8 @@
  
 [64.c](Archived\64.c) 
  
+[641-.c](Archived\641-.c) 
+ 
 [65.c](Archived\65.c) 
  
 [67.c](Archived\67.c) 
@@ -201,6 +207,8 @@
 [69.c](Archived\69.c) 
  
 [7.c](Archived\7.c) 
+ 
+[705.c](Archived\705.c) 
  
 [71.c](Archived\71.c) 
  
