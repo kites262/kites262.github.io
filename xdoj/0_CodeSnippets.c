@@ -24,22 +24,18 @@
 ======`-.____`-.___\_____/___.-`____.-'======
                    `=---='
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-            佛祖保佑       永无BUG
 */
 
 /**
- * 排序函数，由大到小排序
- * 用到的compare函数是比较规则，一般为a[j] > a[j+1],但有时候因题而异
- * 
+ * Sort increasingly
  * a: int array
  * count: count
 */
 void sort(int* a, int count){
-    int compare(int ,int);//比较规则函数
     for(int i = 0; i < count-1; i++){
         for(int j = 0; j < count-1-i; j++){
             //compare & swap
-            if(compare(a[j], a[j+1])){
+            if(a[j] > a[j+1]){
                 int temp = a[j];
                 a[j] = a[j+1];
                 a[j+1] = temp;
@@ -49,7 +45,7 @@ void sort(int* a, int count){
 }
 
 /**
- * 求一个数字的各位数字之和
+ * Get the sum of every digits of 'n' into tar
 */
 int getSum(int tar[], int n){
     int r = 0;
@@ -118,4 +114,17 @@ int parseNumber(char* str){
     }
 
     return num;
+}
+
+/**
+ * Swap a & b
+*/
+void swap(int* a, int* b){
+
+    //Do not remove this unless you know what will happen
+    if(*a == *b) return;
+    
+    *a ^= *b;
+    *b ^= *a;
+    *a ^= *b;
 }

@@ -7,6 +7,7 @@
     },
     "editor.fontSize": 20,
     "files.associations": {
-        "cctype": "c"
+        "cctype": "c",
+        "stdbool.h": "c"
     }
 }
