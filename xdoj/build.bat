@@ -18,8 +18,18 @@ set "Second=%DateTime:~12,2%"
 echo ^*Last updated at %Year%-%Month%-%Day% %Hour%:%Minute%:%Second%^* >> index.md
 echo. >> %OutputFile%
 
-rem PART1
+rem PART Pins
+echo ## Pinned Items: >> %OutputFile%
+echo. >> %OutputFile%
 
+for /r "Pins" %%F in (*.c) do (
+    set "FullPath=%%~dpnxF"
+    set "RelativePath=%%F"
+    echo [%%~nxF](!RelativePath!^) >> %OutputFile%
+	echo. >> %OutputFile%
+)
+
+rem PART Latest
 echo ## Latest Items: >> %OutputFile%
 echo. >> %OutputFile%
 
@@ -30,8 +40,7 @@ for %%F in (*.c) do (
 	echo. >> %OutputFile%
 )
 
-rem PART2
-
+rem PART Archived
 echo ## Archived Items: >> %OutputFile%
 echo. >> %OutputFile%
 

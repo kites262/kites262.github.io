@@ -27,6 +27,19 @@
 */
 
 /**
+ * Get the substring from a certain another
+*/
+void subString(const char *src, int start, int end, char *result) {
+    int length = strlen(src);
+
+    int j = 0;
+    for (int i = start; i <= end; i++) {
+        result[j++] = src[i];
+    }
+    result[j] = '\0';
+}
+
+/**
  * Sort increasingly
  * a: int array
  * count: count
