@@ -24,7 +24,7 @@ echo. >> %OutputFile%
 
 for /r "Pins" %%F in (*.c) do (
     set "FullPath=%%~dpnxF"
-    set "RelativePath=%%F"
+    set "RelativePath=Pins\%%~nxF"
     echo [%%~nxF](!RelativePath!^) >> %OutputFile%
 	echo. >> %OutputFile%
 )

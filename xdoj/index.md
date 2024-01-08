@@ -1,80 +1,80 @@
 # XDOJ_C List 
  
-*Last updated at 2024-01-08 11:04:00* 
+*Last updated at 2024-01-08 11:15:18* 
  
 ## Pinned Items: 
  
-[0_CodeSnippets.c](V:\kites262.github.io\xdoj\Pins\0_CodeSnippets.c) 
+[0_CodeSnippets.c](Pins\0_CodeSnippets.c) 
  
-[671.c](V:\kites262.github.io\xdoj\Pins\671.c) 
+[671.c](Pins\671.c) 
  
-[672.c](V:\kites262.github.io\xdoj\Pins\672.c) 
+[672.c](Pins\672.c) 
  
-[673.c](V:\kites262.github.io\xdoj\Pins\673.c) 
+[673.c](Pins\673.c) 
  
-[674.c](V:\kites262.github.io\xdoj\Pins\674.c) 
+[674.c](Pins\674.c) 
  
-[675.c](V:\kites262.github.io\xdoj\Pins\675.c) 
+[675.c](Pins\675.c) 
  
-[676.c](V:\kites262.github.io\xdoj\Pins\676.c) 
+[676.c](Pins\676.c) 
  
-[677.c](V:\kites262.github.io\xdoj\Pins\677.c) 
+[677.c](Pins\677.c) 
  
-[680.c](V:\kites262.github.io\xdoj\Pins\680.c) 
+[680.c](Pins\680.c) 
  
-[681.c](V:\kites262.github.io\xdoj\Pins\681.c) 
+[681.c](Pins\681.c) 
  
-[682.c](V:\kites262.github.io\xdoj\Pins\682.c) 
+[682.c](Pins\682.c) 
  
-[683.c](V:\kites262.github.io\xdoj\Pins\683.c) 
+[683.c](Pins\683.c) 
  
-[684.c](V:\kites262.github.io\xdoj\Pins\684.c) 
+[684.c](Pins\684.c) 
  
-[685.c](V:\kites262.github.io\xdoj\Pins\685.c) 
+[685.c](Pins\685.c) 
  
-[686.c](V:\kites262.github.io\xdoj\Pins\686.c) 
+[686.c](Pins\686.c) 
  
-[687.c](V:\kites262.github.io\xdoj\Pins\687.c) 
+[687.c](Pins\687.c) 
  
-[688.c](V:\kites262.github.io\xdoj\Pins\688.c) 
+[688.c](Pins\688.c) 
  
-[689.c](V:\kites262.github.io\xdoj\Pins\689.c) 
+[689.c](Pins\689.c) 
  
-[690.c](V:\kites262.github.io\xdoj\Pins\690.c) 
+[690.c](Pins\690.c) 
  
-[691.c](V:\kites262.github.io\xdoj\Pins\691.c) 
+[691.c](Pins\691.c) 
  
-[692.c](V:\kites262.github.io\xdoj\Pins\692.c) 
+[692.c](Pins\692.c) 
  
-[693.c](V:\kites262.github.io\xdoj\Pins\693.c) 
+[693.c](Pins\693.c) 
  
-[694.c](V:\kites262.github.io\xdoj\Pins\694.c) 
+[694.c](Pins\694.c) 
  
-[695.c](V:\kites262.github.io\xdoj\Pins\695.c) 
+[695.c](Pins\695.c) 
  
-[696.c](V:\kites262.github.io\xdoj\Pins\696.c) 
+[696.c](Pins\696.c) 
  
-[697.c](V:\kites262.github.io\xdoj\Pins\697.c) 
+[697.c](Pins\697.c) 
  
-[698.c](V:\kites262.github.io\xdoj\Pins\698.c) 
+[698.c](Pins\698.c) 
  
-[699.c](V:\kites262.github.io\xdoj\Pins\699.c) 
+[699.c](Pins\699.c) 
  
-[700.c](V:\kites262.github.io\xdoj\Pins\700.c) 
+[700.c](Pins\700.c) 
  
-[701.c](V:\kites262.github.io\xdoj\Pins\701.c) 
+[701.c](Pins\701.c) 
  
-[702.c](V:\kites262.github.io\xdoj\Pins\702.c) 
+[702.c](Pins\702.c) 
  
-[703.c](V:\kites262.github.io\xdoj\Pins\703.c) 
+[703.c](Pins\703.c) 
  
-[704.c](V:\kites262.github.io\xdoj\Pins\704.c) 
+[704.c](Pins\704.c) 
  
-[706.c](V:\kites262.github.io\xdoj\Pins\706.c) 
+[706.c](Pins\706.c) 
  
-[707.c](V:\kites262.github.io\xdoj\Pins\707.c) 
+[707.c](Pins\707.c) 
  
-[708.c](V:\kites262.github.io\xdoj\Pins\708.c) 
+[708.c](Pins\708.c) 
  
 ## Latest Items: 
  
