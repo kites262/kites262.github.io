@@ -1,6 +1,6 @@
 # XDOJ_C List 
  
-*Last updated at 2023-12-23 18:22:33* 
+*Last updated at 2024-01-08 11:04:00* 
  
 ## Pinned Items: 
  
@@ -77,6 +77,10 @@
 [708.c](V:\kites262.github.io\xdoj\Pins\708.c) 
  
 ## Latest Items: 
+ 
+[177.c](177.c) 
+ 
+[242.c](242.c) 
  
 ## Archived Items: 
  

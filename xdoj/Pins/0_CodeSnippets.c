@@ -27,6 +27,16 @@
 */
 
 /**
+ * ! XDOJ prefer scanf("%[^\n]", str) to fgets(str, MAXLEN, stdin)
+ * 
+ * ! Localy fgets() will read '\n' into str
+ * ! But XDOJ will not
+ * 
+*/
+
+
+
+/**
  * Get the substring from a certain another
 */
 void subString(const char *src, int start, int end, char *result) {
@@ -52,6 +62,24 @@ void sort(int* a, int count){
                 int temp = a[j];
                 a[j] = a[j+1];
                 a[j+1] = temp;
+            }
+        }
+    }
+}
+
+/**
+ * Sort 2
+ * a: int array
+ * count: count
+*/
+void sort2(int* a, int count){
+    for(int i = 0; i < count; i++){
+        for(int j = i+1; j < count; j++){
+            //compare & swap
+            if(a[j] > a[i]){
+                int temp = a[j];
+                a[j] = a[i];
+                a[i] = temp;
             }
         }
     }
