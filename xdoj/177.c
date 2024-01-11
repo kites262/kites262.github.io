@@ -15,4 +15,3 @@ int main(){
 
     printf("%d", sum%0x100);
 }
-

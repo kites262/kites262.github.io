@@ -1,86 +1,20 @@
 # XDOJ_C List 
  
-*Last updated at 2024-01-08 11:15:18* 
+*Last updated at 2024-01-11 17:16:13* 
  
 ## Pinned Items: 
  
 [0_CodeSnippets.c](Pins\0_CodeSnippets.c) 
  
-[671.c](Pins\671.c) 
- 
-[672.c](Pins\672.c) 
- 
-[673.c](Pins\673.c) 
- 
-[674.c](Pins\674.c) 
- 
-[675.c](Pins\675.c) 
- 
-[676.c](Pins\676.c) 
- 
-[677.c](Pins\677.c) 
- 
-[680.c](Pins\680.c) 
- 
-[681.c](Pins\681.c) 
- 
-[682.c](Pins\682.c) 
- 
-[683.c](Pins\683.c) 
- 
-[684.c](Pins\684.c) 
- 
-[685.c](Pins\685.c) 
- 
-[686.c](Pins\686.c) 
- 
-[687.c](Pins\687.c) 
- 
-[688.c](Pins\688.c) 
- 
-[689.c](Pins\689.c) 
- 
-[690.c](Pins\690.c) 
- 
-[691.c](Pins\691.c) 
- 
-[692.c](Pins\692.c) 
- 
-[693.c](Pins\693.c) 
- 
-[694.c](Pins\694.c) 
- 
-[695.c](Pins\695.c) 
- 
-[696.c](Pins\696.c) 
- 
-[697.c](Pins\697.c) 
- 
-[698.c](Pins\698.c) 
- 
-[699.c](Pins\699.c) 
- 
-[700.c](Pins\700.c) 
- 
-[701.c](Pins\701.c) 
- 
-[702.c](Pins\702.c) 
- 
-[703.c](Pins\703.c) 
- 
-[704.c](Pins\704.c) 
- 
-[706.c](Pins\706.c) 
- 
-[707.c](Pins\707.c) 
- 
-[708.c](Pins\708.c) 
+[84.c](Pins\84.c) 
  
 ## Latest Items: 
  
 [177.c](177.c) 
  
 [242.c](242.c) 
+ 
+[243.c](243.c) 
  
 ## Archived Items: 
  
@@ -258,13 +192,83 @@
  
 [67.c](Archived\67.c) 
  
+[671.c](Archived\671.c) 
+ 
+[672.c](Archived\672.c) 
+ 
+[673.c](Archived\673.c) 
+ 
+[674.c](Archived\674.c) 
+ 
+[675.c](Archived\675.c) 
+ 
+[676.c](Archived\676.c) 
+ 
+[677.c](Archived\677.c) 
+ 
 [68.c](Archived\68.c) 
+ 
+[680.c](Archived\680.c) 
+ 
+[681.c](Archived\681.c) 
+ 
+[682.c](Archived\682.c) 
+ 
+[683.c](Archived\683.c) 
+ 
+[684.c](Archived\684.c) 
+ 
+[685.c](Archived\685.c) 
+ 
+[686.c](Archived\686.c) 
+ 
+[687.c](Archived\687.c) 
+ 
+[688.c](Archived\688.c) 
+ 
+[689.c](Archived\689.c) 
  
 [69.c](Archived\69.c) 
  
+[690.c](Archived\690.c) 
+ 
+[691.c](Archived\691.c) 
+ 
+[692.c](Archived\692.c) 
+ 
+[693.c](Archived\693.c) 
+ 
+[694.c](Archived\694.c) 
+ 
+[695.c](Archived\695.c) 
+ 
+[696.c](Archived\696.c) 
+ 
+[697.c](Archived\697.c) 
+ 
+[698.c](Archived\698.c) 
+ 
+[699.c](Archived\699.c) 
+ 
 [7.c](Archived\7.c) 
  
+[700.c](Archived\700.c) 
+ 
+[701.c](Archived\701.c) 
+ 
+[702.c](Archived\702.c) 
+ 
+[703.c](Archived\703.c) 
+ 
+[704.c](Archived\704.c) 
+ 
 [705.c](Archived\705.c) 
+ 
+[706.c](Archived\706.c) 
+ 
+[707.c](Archived\707.c) 
+ 
+[708.c](Archived\708.c) 
  
 [71.c](Archived\71.c) 
  

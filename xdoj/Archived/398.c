@@ -1,72 +1,53 @@
-#include <stdio.h>
-#include <string.h>
-#include <stdlib.h>
+#include<stdio.h>
+#include<string.h>
+#include<stdlib.h>
+char *compress(char *src);
+int main()
+{
+	char src[100];
+	scanf("%s",src);
 
-/**
- * Generally, the frequency of an alpha will not more than 100
- * So we could just write codes to solve `0~9` and `10~99`
- * 
- * But out of my own spirit
- * I turned the frequency we could sove into 100 digits with cache!
-*/
-
-char* compress(char*);
-
-int main(){
-    char user[100] = "";
-    scanf("%s", user);
-    
-    puts(compress(user));
+	char *ps = compress(src);
+	
+	puts(ps);
+	return 0;
 }
 
-char* compress(char* src){
-    int srcLen = strlen(src);
+char *compress(char *src){
+    char alphas[100] = "";
+    int counts[100] = {0,};
 
-    int comLen = 0;
-    char com[100] = "";
+    int ArrayCount = 0;
 
-    int cacheLen = 0;
-    int cacheCount[100];
+    int tempCount = 0;
+    char tempChar = src[0];
+    for(int i = 0; i < strlen(src)+1; i++){
+        if(tempChar == src[i]){
+            tempCount++;
+        }else{
+            alphas[ArrayCount] = tempChar;
+            counts[ArrayCount] = tempCount;
+            ArrayCount++;
 
-    int count = 1;
-    for(int i = 1; i < srcLen+1; i++){
-        //1 - if same
-        if(src[i] == src[i-1]){
-            count++;
-        }else{//2 - or not same, meaning append works started
-            char tar = src[i-1];
-            //2.1 - if only 1/2 alphas, append directly
-            if(count <= 2){
-                for(int j = 0; j < count; j++){
-                    //set an alpha
-                    com[comLen] = tar;
-                    comLen++;
-                }
-            }else{//2.2 - if more alphas, firstly append an alpha, then number
-                //set frist alpha
-                com[comLen] = tar;
-                comLen++;
-                //parse `count` to array
-                while(count > 0){
-                    cacheCount[cacheLen] = count % 10;
-                    count /= 10;
-                    cacheLen++;
-                }
-                //append array`count` to str`com`
-                while(cacheLen > 0){
-                    com[comLen] = cacheCount[cacheLen-1] + '0';
-                    comLen++;
-                    cacheLen--;
-                }
-            }
-            //2 - reset `count`
-            count = 1;
+            tempChar = src[i];
+            tempCount = 1;
         }
     }
 
-    for(int i = 0; i < comLen; i++){
-        src[i] = com[i];
+    char *result = (char *)malloc(sizeof(char) * 100);
+    int resultCount = 0;
+    for(int i = 0; i < ArrayCount; i++){
+        result[resultCount++] = alphas[i];
+        if(counts[i] > 9){
+            result[resultCount++] = counts[i] / 10 + '0';
+            result[resultCount++] = counts[i] % 10 + '0';
+        }else if(counts[i] > 2){
+            result[resultCount++] = counts[i] + '0';
+        }else if(counts[i] == 2){
+            result[resultCount++] = alphas[i];
+        }
     }
-    src[comLen] = '\0';
-    return &src[0];
+
+    result[resultCount] = '\0';
+    return result;
 }

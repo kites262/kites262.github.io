@@ -1,3 +1,5 @@
+@echo off
+
 setlocal enabledelayedexpansion
 
 del *.exe
@@ -50,3 +52,6 @@ for /r "Archived" %%F in (*.c) do (
     echo [%%~nxF](!RelativePath!^) >> %OutputFile%
 	echo. >> %OutputFile%
 )
+
+git add .
+git status
