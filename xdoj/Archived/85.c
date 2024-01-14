@@ -7,7 +7,10 @@ double getSimilarityRate(char*, char*);
 int main(){
     char s1[100];
     char s2[100];
-    scanf("%s %s", s1, s2);
+    scanf("%[^\n]", s1);
+    getchar();
+    scanf("%[^\n]", s2);
+    getchar();
 
     toLowerStr(s1);
     toLowerStr(s2);

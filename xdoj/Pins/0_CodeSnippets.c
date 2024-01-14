@@ -102,15 +102,13 @@ int getSum(int tar[], int n){
  * or return 0 if not
 */
 int isPrime(int n){
-    int flag = (n == 1 ? 0 : 1);
+    if(n == 1) return 0;
     for(int i = 2; i <= n/2; i++){
         if(n%i == 0){
-            flag = 0;
-            break;
+            return 0;
         }
     }
-
-    return flag;
+    return 1;
 }
 
 /**
@@ -134,24 +132,17 @@ int parseFactor(int num, int tar[]){
  * return that number
 */
 int parseNumber(char* str){
-    int a[10];
-    a[0] = 0;
+    int a[100];
+    int n = 0;
     for(int i = 0; str[i] != '\0'; i++){
-        if(
-            str[i] >= '0' && str[i] <= '9'
-        ){
-            a[a[0]+1] = str[i] - 48;
-            a[0]++;
+        if(str[i] >= '0' && str[i] <= '9'){
+            a[n++] = str[i] - '0';
         }
     }
 
     int num = 0;
-    for(int i = 1; i <= a[0]; i++){
-        int zeros = a[0] - i;
-        for(int j = zeros; j > 0; j--){
-            a[i] *= 10;
-        }
-        num += a[i];
+    for(int i = 1; i < n; i++){
+        num = num * 10 + a[i];
     }
 
     return num;

@@ -2,11 +2,12 @@
 
 setlocal enabledelayedexpansion
 
+echo Delete exe...
 del *.exe
 
+echo Initializing...
 set OutputFile=index.md
 
-rem TITLE&DATE
 echo # XDOJ_C List > %OutputFile%
 echo. >> %OutputFile%
 
@@ -20,7 +21,7 @@ set "Second=%DateTime:~12,2%"
 echo ^*Last updated at %Year%-%Month%-%Day% %Hour%:%Minute%:%Second%^* >> index.md
 echo. >> %OutputFile%
 
-rem PART Pins
+echo PART Pins...
 echo ## Pinned Items: >> %OutputFile%
 echo. >> %OutputFile%
 
@@ -31,7 +32,7 @@ for /r "Pins" %%F in (*.c) do (
 	echo. >> %OutputFile%
 )
 
-rem PART Latest
+echo PART Latest...
 echo ## Latest Items: >> %OutputFile%
 echo. >> %OutputFile%
 
@@ -42,7 +43,7 @@ for %%F in (*.c) do (
 	echo. >> %OutputFile%
 )
 
-rem PART Archived
+echo PART Archived...
 echo ## Archived Items: >> %OutputFile%
 echo. >> %OutputFile%
 
@@ -53,5 +54,6 @@ for /r "Archived" %%F in (*.c) do (
 	echo. >> %OutputFile%
 )
 
+echo GIT:
 git add .
 git status

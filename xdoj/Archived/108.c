@@ -1,61 +1,47 @@
 #include <stdio.h>
-
-/**
- * parse the number from a string
- * return that number
-*/
-int parseNumber(char* str){
-    int a[10];
-    a[0] = 0;
-    for(int i = 0; str[i] != '\0'; i++){
-        if(
-            str[i] >= '0' && str[i] <= '9'
-        ){
-            a[a[0]+1] = str[i] - 48;
-            a[0]++;
-        }
-    }
-//
-    int num = 0;
-    for(int i = 1; i <= a[0]; i++){
-        int zeros = a[0] - i;
-        for(int j = zeros; j > 0; j--){
-            a[i] *= 10;
-        }
-        num += a[i];
-    }
-
-    return num;
-}
+#include <string.h>
+#include <ctype.h>
 
 int isPrime(int n){
-    int flag = (n == 1 ? 0 : 1);
+    if(n == 1) return 0;
     for(int i = 2; i <= n/2; i++){
         if(n%i == 0){
-            flag = 0;
-            break;
+            return 0;
         }
     }
-
-    return flag;
+    return 1;
 }
 
-int getMaxFactor(int num){
-    int max;
+int getMaxFactor(int n){
+    if(isPrime(n)) return n;
 
-    if(isPrime(num)) max = num;
-    else for(int i = num-1; i > 1; i--){
-        if(num % i == 0){
-            max = i;
-            break;
+    for(int i = n - 1; i > 1; i--){
+        if(n % i == 0){
+            return i;
         }
     }
-
-    return max;
+    return 1;
 }
 
 int main(){
     char str[100];
-    scanf("%s", str);
-    printf("%d", getMaxFactor(parseNumber(str)));
+    scanf("%[^\n]", str);
+    int lenS = strlen(str);
+
+    char result[100];
+    int lenR = 0;
+    for(int i = 0; i < lenS; i++){
+        if(isdigit(str[i])){
+            result[lenR++] = str[i];
+        }
+    }
+    result[lenR] = '\0';
+
+    int num = 0;
+    for(int i = 0; i < lenR; i++){
+        num = num * 10 + (result[i] - '0');
+    }
+
+    if(getMaxFactor(num) == 1) printf("0");
+    else printf("%d", getMaxFactor(num));
 }
