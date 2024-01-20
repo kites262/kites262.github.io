@@ -10,8 +10,8 @@ ___
 
 ___
 
-## [SparkSports](https://kites262.top/u/spark) 基于Vue开发的运动数据可视化与激励系统
+## [SparkSports](https://kites262.top/u/spark) Vue+SpringBoot: 运动数据可视化与激励系统
 
 ___
 
-> Email me `kites262@qq.com`
+> Email me `kites262@163.com`
