@@ -6,7 +6,7 @@ int main(){
     fgets(pw, 50, stdin);
 
     int len = 0;
-    while(pw[len] != '\0') len++;
+    while(pw[len] != '\n') len++;
 
     int score = 0;
 

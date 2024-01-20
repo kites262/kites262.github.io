@@ -1,6 +1,6 @@
 # XDOJ_C List 
  
-*Last updated at 2024-01-14 23:11:44* 
+*Last updated at 2024-01-20 11:36:17* 
  
 ## Pinned Items: 
  
@@ -9,24 +9,6 @@
 [84.c](Pins\84.c) 
  
 ## Latest Items: 
- 
-[133-.c](133-.c) 
- 
-[135.c](135.c) 
- 
-[169.c](169.c) 
- 
-[170.c](170.c) 
- 
-[171.c](171.c) 
- 
-[173-.c](173-.c) 
- 
-[5.c](5.c) 
- 
-[83.c](83.c) 
- 
-[86.c](86.c) 
  
 ## Archived Items: 
  
@@ -50,7 +32,11 @@
  
 [126.c](Archived\126.c) 
  
+[133-.c](Archived\133-.c) 
+ 
 [134.c](Archived\134.c) 
+ 
+[135.c](Archived\135.c) 
  
 [139.c](Archived\139.c) 
  
@@ -63,6 +49,14 @@
 [16.c](Archived\16.c) 
  
 [167.c](Archived\167.c) 
+ 
+[169.c](Archived\169.c) 
+ 
+[170.c](Archived\170.c) 
+ 
+[171.c](Archived\171.c) 
+ 
+[173-.c](Archived\173-.c) 
  
 [177.c](Archived\177.c) 
  
@@ -171,6 +165,8 @@
 [49.c](Archived\49.c) 
  
 [490.c](Archived\490.c) 
+ 
+[5.c](Archived\5.c) 
  
 [50.c](Archived\50.c) 
  
@@ -310,7 +306,11 @@
  
 [82.c](Archived\82.c) 
  
+[83.c](Archived\83.c) 
+ 
 [85.c](Archived\85.c) 
+ 
+[86.c](Archived\86.c) 
  
 [87.c](Archived\87.c) 
  
