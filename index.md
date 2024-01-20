@@ -12,6 +12,8 @@ ___
 
 ## [SparkSports](https://kites262.top/u/spark) Vue+SpringBoot: 运动数据可视化与激励系统
 
+## [XDOJ Page](http://kites262.top/xdoj/) C+Java+Python
+
 ___
 
 > Email me `kites262@163.com`
