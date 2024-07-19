@@ -1,6 +1,6 @@
 # 西电
 
-[本科生入学须知](https://kites262.top/xidian/start/)
+[本科生入学须知](https://kites.cc/xidian/start/)
 
 [西电迎新网](https://xdyx.xidian.edu.cn/)
 

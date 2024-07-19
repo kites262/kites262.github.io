@@ -66,7 +66,7 @@ public class Prime {
 
 我的mc服务器宣传页，仅为PC设计，PC上打开效果更好
 
-<https://kites262.top/mc/>
+<https://kites.cc/mc/>
 
 ## 4.计算机由哪些部件组成？他们是如何工作的？
 
